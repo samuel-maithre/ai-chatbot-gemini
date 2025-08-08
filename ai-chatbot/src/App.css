@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+  color: #fff;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.sidebar {
+  width: 240px;
+  background-color: #111;
+  border-right: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.new-chat {
+  background-color: #ffd700;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.new-chat:hover {
+  background-color: #ffcc00;
+}
+
+.chat-history {
+  flex: 1;
+  overflow-y: auto;
+  color: #bbb;
+  font-size: 14px;
+}
+
+.chat-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.chat-box {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-box::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+  background-color: #ffd700;
+  border-radius: 4px;
+}
+
+.message {
+  margin: 10px 0;
+  padding: 2px 12px;
+  border-radius: 15px;
+  max-width: 70%;
+  word-wrap: break-word;
+  line-height: 1.5;
+  display: inline-block;
+  clear: both;
+  position: relative;
+}
+.message.user {
+  background-color: #222;
+  color: #fff;
+  align-self: flex-end;
+  margin-left: auto;
+  text-align: right;
+  border-bottom-right-radius: 0;
+  /* border-left: 4px solid #ffd700; */
+}
+
+.message.bot {
+  background-color: #111;
+  color: #fff;
+  align-self: flex-start;
+  margin-right: auto;
+  text-align: left;
+  border-bottom-left-radius: 0;
+  /* border-left: 4px solid #ffd700; */
+}
+
+.input-area {
+  display: flex;
+  margin-top: 10px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  font-size: 16px;
+  outline: none;
+  background-color: #222;
+  color: #fff;
+}
+
+.input-area button {
+  padding: 12px 20px;
+  background-color: #ffd700;
+  color: #000;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.input-area button:hover {
+  background-color: #ffcc00;
+}
+
+/* Markdown styling */
+code {
+  background: #222;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  font-size: 90%;
+  color: #ffd700;
+  overflow-x: auto;
+}
+
+pre {
+  background-color: #1a1a1a;
+  padding: 12px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-top: 8px;
+}
