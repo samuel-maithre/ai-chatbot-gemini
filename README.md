@@ -1,8 +1,3 @@
-Here’s a professional and informative **README.md** you can copy and paste directly for your `ai-chatbot-gemini` project.
-I’ve made it concise yet detailed enough for professional presentation.
-
----
-
 # AI Chatbot – Gemini API
 
 A modern, sleek AI-powered chatbot built using **Google Gemini API** with a **Python backend** and a **React.js frontend**.
