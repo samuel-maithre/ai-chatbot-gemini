@@ -1,7 +1,7 @@
 # AI Chatbot – Gemini API
 
 A modern, sleek AI-powered chatbot built using **Google Gemini API** with a **Python backend** and a **React.js frontend**.
-The chatbot is designed to deliver fast, interactive, and intelligent responses with support for advanced features like typing animations, markdown rendering, and dark mode.
+The chatbot is designed to deliver fast, interactive, and intelligent responses with support for advanced features like typing animations, markdown rendering.
 
 ---
 
@@ -65,7 +65,7 @@ ai-chatbot-gemini/
 ### **1️⃣ Clone the Repository**
 
 ```bash
-git clone https://github.com/yourusername/ai-chatbot-gemini.git
+git clone https://github.com/samuel-maithre/ai-chatbot-gemini.git
 cd ai-chatbot-gemini
 ```
 
