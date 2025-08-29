@@ -15,6 +15,7 @@ spec:
       containers:
         - name: frontend
           image: samuelmaithre01/ai-chatbot-frontend:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
           env:

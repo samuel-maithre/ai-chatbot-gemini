@@ -15,6 +15,7 @@ spec:
       containers:
         - name: backend
           image: samuelmaithre01/ai-chatbot-backend:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 5000
           env:
